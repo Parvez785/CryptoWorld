@@ -1,0 +1,13 @@
+.banner{
+    background-image: url('https://i.postimg.cc/7PC82Sgc/banner2.jpg');
+    background-size: cover;
+    height:60vh;
+    background-position: center;
+    
+
+}
+.image-responsive{
+    width:80px;
+    height: 80px;
+    border-radius: 10px;
+}

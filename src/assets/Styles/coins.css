@@ -1,0 +1,52 @@
+.text-main-row{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+
+}
+button{
+   margin-right: 30px;
+   margin-top: 10px;
+    border: 1px solid gold !important;
+    cursor: pointer;
+    padding: 10px 40px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    border-radius: 5px;
+    color:black;
+    background-color: gold;
+ }
+@media screen and (max-width:600px) {
+    th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.css-fgc1f0-MuiTableCell-root {
+        padding: 12px;
+    }
+    th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.css-fhi07b-MuiTableCell-root {
+        padding: 15px;
+    }
+    th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.css-1v8juxs-MuiTableCell-root {
+        padding: 0px;
+    }
+
+    h4.MuiTypography-root.MuiTypography-h4.css-1j09pgv-MuiTypography-root ,
+    h4.MuiTypography-root.MuiTypography-h4.css-u7wod2-MuiTypography-root,
+    h4.MuiTypography-root.MuiTypography-h4.css-69xcbl-MuiTypography-root,
+    h4.MuiTypography-root.MuiTypography-h4.css-1j09pgv-MuiTypography-root
+    {
+        font-size: 25px;
+    }
+    .main {
+        height:75vh !important;
+    }
+button{
+    margin-right: 5px;
+    margin-top: 0px;
+     border: 1px solid gold !important;
+     cursor: pointer;
+padding: 20px;
+   font-size: 10px;
+ 
+}
+    
+}

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-black{
+    background-color: #14161a;
+    height:100vh;
+    color:white;
+}
