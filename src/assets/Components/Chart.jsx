@@ -25,7 +25,7 @@ export default function Charts(id) {
   const coinsChartData=()=>{
     axios.get(`https://api.coingecko.com/api/v3/coins/${id.id}/market_chart?vs_currency=INR&days=${days}`)
     .then((response)=>{
-     console.log(response.data)
+     
      sethistoricaldata(response.data.prices)
       setloading(false);
 
