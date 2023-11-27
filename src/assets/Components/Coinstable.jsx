@@ -59,12 +59,12 @@ return item.name.toLowerCase().includes(search.toLowerCase())
   })
 
 setFilter(filteredList)
-console.log(filteredList);
+
 }
 
 const handlePageChange = (event, newPage) => {
   setCurrentPage(newPage);
-  console.log(newPage)
+
 };
 
   return (
