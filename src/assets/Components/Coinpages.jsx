@@ -6,7 +6,6 @@ import Charts from './Chart';
 import '../Styles/coins.css'
 export default function Coinpages() {
   const {id}=useParams();
-  console.log(id)
 const [coins,setcoins]=useState([]);
 const [loading,setloading]=useState(true);
   const coinsData=()=>{
