@@ -73,7 +73,7 @@ const handlePageChange = (event, newPage) => {
         <Typography variant='h4' sx={{marginTop:5, textAlign:"center"}}>
         Cryptocurrency Prices by Market Cap
         </Typography>
-        <TextField label="Enter The Coin you want tp search" variant="outlined" sx={{marginTop:3, width:'100%'}}
+        <TextField label="Enter The Coin you want to search" variant="outlined" sx={{marginTop:3, width:'100%'}}
         onChange={(e)=>{SetSearch(e.target.value);handleSearch()} } 
         value={search}
         />
