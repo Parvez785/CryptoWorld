@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';;
 import axios from 'axios';
 import '../Styles/coins.css'
 import { Box ,Button,LinearProgress} from '@mui/material';
@@ -80,25 +80,13 @@ const options={
     },
   
   },
-  scales:{
-    xAxes:[{
-  
-        labels: data.labels,
-    }],
-    yAxes:[
-      {
-        ticks:{
-          beginAtZero:true
-        }
-      }
-    ]
-  }
+
 }
 
 
   return (
    
- <Box sx={{display:'flex',justifyContent:'center',flexDirection:'column', alignItems:'Center',marginTop:'30px',}}>
+ <Box sx={{display:'flex',justifyContent:'center',flexDirection:'column', alignItems:'Center',marginTop:'30px',marginLeft:'10px'}}>
 
    <Line data={data} options={options}/>
    <Box sx={{display:'flex',justifyContent:'space-between',  paddingBottom: '20px'}}>
